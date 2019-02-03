@@ -5,7 +5,7 @@ This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) with TypeScript
 ## Features
 
 - TypeScript
-- TSLint (with custom TSLint rules)
+- TSLint based off StandardJS
 - Basic component structure
 - Styling with [emotion](https://emotion.sh/)
 
