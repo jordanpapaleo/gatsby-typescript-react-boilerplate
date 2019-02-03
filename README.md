@@ -22,9 +22,6 @@ gatsby new your-project-name https://github.com/jordanpapaleo/gatsby-typescript-
 A nodejs >= 8.0.0.
 
 ```bash
-# install dependencies
-npm install
-
 # serve with hot reload at localhost:8000
 npm start
 
