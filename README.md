@@ -14,7 +14,7 @@ This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) with TypeScript
 If you have `gatsby-cli` installed, you can install this project using the following command:
 
 ```bash
-gatsby new your-project-name https://github.com/jordanpapaleo/gatsby-typescript-emotion
+gatsby new your-project-name https://github.com/jordanpapaleo/gatsby-typescript-react-boilerplate
 ```
 
 ## Developing
