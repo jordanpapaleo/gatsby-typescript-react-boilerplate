@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-typescript-react-boilerplate",
+  "description": "gatsby-typescript-react-boilerplate",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,md}\"",
+    "test": "npm run test:lint && npm run test:type",
+    "test:lint": "tslint 'src/**/*.{ts,tsx,js}' -p tsconfig.json",
+    "test:type": "tsc",
+    "clean": "rm -rf public",
+    "purge": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.6",
+    "@emotion/styled": "^10.0.6",
+    "classnames": "^2.2.6",
+    "emotion-theming": "^10.0.6",
+    "gatsby": "^2.0.111",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "^16.0.11",
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby-plugin-emotion": "^4.0.3",
+    "gatsby-plugin-typescript": "^2.0.6",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.0",
+    "typescript": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanpapaleo/gatsby-typescript-react-boilerplate"
+  },
+  "bugs": {
+    "url": "https://github.com/jordanpapaleo/gatsby-typescript-react-boilerplate/issues"
+  }
+}
